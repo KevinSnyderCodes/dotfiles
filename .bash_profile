@@ -12,7 +12,7 @@ alias c="clear"
 alias e=$DEFAULT_EDITOR
 alias g="git"
 alias l="ls -lash"
-alias p="echo $PWD"
+alias p="PWD"
 # directory traversal
 alias ..="cd .."
 alias .1="cd .."
