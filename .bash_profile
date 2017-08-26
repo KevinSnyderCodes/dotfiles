@@ -1,3 +1,5 @@
+DEFAULT_EDITOR=vim
+
 # Aliases -------------------
 
 # preferred options
@@ -7,9 +9,10 @@ alias cp="cp -iv"        # always confirm overwrite
 alias mkdir="mkdir -pv"  # create parent directories if they don't exist
 # short notation
 alias c="clear"
-alias e="vim"
+alias e=$DEFAULT_EDITOR
 alias g="git"
 alias l="ls -lash"
+alias p="echo $PWD"
 # directory traversal
 alias ..="cd .."
 alias .1="cd .."
