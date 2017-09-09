@@ -30,13 +30,13 @@ $ ./setup.sh
 
 Where sensible, `setup.sh` preserves dotfiles that already exist and adds new contents to the beginning of those files so that existing configurations are not overridden.
 
-The file structure below indicates what files are created and modified when running `setup.sh`. Files in bold are overwritten entirely:
+The file structure below indicates which files are created and modified when running `setup.sh`. Files in bold are overwritten entirely:
 
 <pre>
 ~
 │   .bash_profile
 │   .bashrc
-│   <em>.vimrc</em>
+│   <strong>.vimrc</strong>
 </pre>
 
 Contents added to dotfiles by `setup.sh` are wrapped in special comments (example below). Feel free to make changes outside of these sections, but **do not remove the comments** as they enable you to upgrade your dotfiles when a new version of the script is released.
